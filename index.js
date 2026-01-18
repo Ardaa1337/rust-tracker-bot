@@ -170,5 +170,6 @@ client.on('interactionCreate', async interaction => {
     }
 })
 
-client.login(process.env.DISCORD_TOKEN)
+client.login("MTQ2MjUxODM3NTI1MDEzMzA3NA.Gxxviv.LPhbB8TRqkIn1jZuNbqFlMAWhe3_Ua6mxlxl8w")
+
 
