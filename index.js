@@ -1,4 +1,4 @@
-require('dotenv').config()
+
 const { Client, GatewayIntentBits, SlashCommandBuilder } = require('discord.js')
 const axios = require('axios')
 const fs = require('fs')
@@ -171,3 +171,4 @@ client.on('interactionCreate', async interaction => {
 })
 
 client.login(process.env.DISCORD_TOKEN)
+
